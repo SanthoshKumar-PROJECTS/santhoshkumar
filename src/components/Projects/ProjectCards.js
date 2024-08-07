@@ -81,21 +81,29 @@ function ProjectCards({
       </div>
       <Card.Body>
         <Card.Text style={{ textAlign: "justify" }}>{description}</Card.Text>
-        {!isBlog && demoLink && (
-          <Button variant="primary" href={demoLink} target="_blank">
-            <SiGoogleplay /> &nbsp; Play Store
-          </Button>
-        )}
-        {!isBlog && ghLink && (
-          <Button
-            variant="primary"
-            href={ghLink}
-            target="_blank"
-            style={{ marginLeft: "10px" }}
-          >
-            <SiAppstore /> &nbsp; App Store
-          </Button>
-        )}
+        <div className="spacing-at">
+          {!isBlog && demoLink && (
+            <Button
+              // style={{ marginLeft: "-20px" }}
+              variant="primary"
+              href={demoLink}
+              target="_blank"
+            >
+              <SiGoogleplay /> &nbsp; Play Store
+            </Button>
+          )}
+          {!isBlog && ghLink && (
+            <Button
+              // style={{ marginRight: 20 }}
+              variant="primary"
+              href={ghLink}
+              target="_blank"
+              style={{ marginLeft: "10px" }}
+            >
+              <SiAppstore /> &nbsp; App Store
+            </Button>
+          )}
+        </div>
       </Card.Body>
     </Card>
   );
