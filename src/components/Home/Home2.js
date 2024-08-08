@@ -28,16 +28,16 @@ function Home2() {
               <i>
                 <b className="purple">
                   {" "}
-                  React Native, React and a variety of front-end technologies.{" "}
+                  React Native, React and a variety of front-end
+                  technologies.&nbsp;{" "}
                 </b>
               </i>
               <br />
-              <br />I thrive on collaboration, ensuring I deliver&nbsp;
+              <br />I thrive on collaboration, ensuring I deliver
               <i>
-                <b className="purple">top-notch software solutions </b>
+                <b className="purple"> top-notch software solutions </b>
                 that
-                <br />
-                <b className="purple">impress and delight.</b>
+                <b className="purple"> impress and delight.</b>
               </i>
               <br />
               <br />
